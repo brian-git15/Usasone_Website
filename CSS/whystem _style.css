@@ -1,0 +1,204 @@
+
+.wrapper{
+    background: url(pic.jpeg) no-repeat; 
+    background-size: cover;
+    height: 10vh;
+ }
+ .navbar{
+    position: absolute;
+     width: 100%;
+    top: 0px;
+     
+     background: rgba(0, 0, 0, 0.403);
+    
+ }
+ .logo{
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 93px;
+     height: auto;
+     padding: 0px 10px;
+     position: absolute;
+     border-radius: 100%;
+     
+ }
+ .navbar ul{
+     float: right;
+     margin-right: 20px;
+ }
+ .navbar ul li{
+     list-style: none;
+     margin: 0 8px;
+     display: inline-block;
+     line-height: 80px;
+ }
+ 
+ .navbar ul li a{
+     text-decoration: none;
+     color: white;
+     font-sixe: 20px; 
+     padding: 6px 13px;
+     font-family: 'Roboto', sans-serif;
+     transition: .4s;
+ }
+ 
+ .navbar ul li a.active,
+ .navbar ul li a:hover{
+     background: red;
+     border-radius: 2px;
+ 
+ 
+ }
+ 
+ .wrapper .center{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     font-family: sans-serif;
+     user-select: none;
+ }
+ 
+ .center h1{
+     color:black;
+     font-size: 70px;
+     font-weight: bold;
+     width: 90px;
+     text-align: center;
+ }
+ .center h2{
+     color:black;
+     font-size: 30px;
+     font-weight: bold;
+     width: 885px;
+     margin-top: 10px;
+     text-align: center;
+ }
+ .center .buttons{
+     margin: 35px 280px;
+ 
+ }
+ 
+
+.hero{
+    background-color: #93c3c0;
+    overflow: hidden;
+}
+
+.heading h1{
+    color: #ff6347;
+    font-size: 55px;
+    text-align:center;
+    margin-top:  35px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin:65px auto;
+
+}
+
+
+
+
+
+/*After Nav Bar*/
+
+*{
+margin: 0;
+font-family: "Opens Sans", sans-serif;
+box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:palevioletred;
+    ;
+    ;
+}
+
+.about-section{
+    
+    background: url(../IMG/stem4.jpeg) no-repeat left;
+    background-size: 55%;
+    background-color: palevioletred;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color:pink;
+    padding: 120px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 20px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    transition: .4s ease;
+}
+
+.skills{
+    display: flex;
+    justify-content: 700;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media  screen and (max-width: 1000px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width:100%;
+    }
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+    
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+
